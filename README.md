@@ -6,4 +6,3 @@ Various dev tools collected from the internet or written by myself.
 
 ## Generate ASCII art
 * `figlet`
-
