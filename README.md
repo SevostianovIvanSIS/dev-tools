@@ -5,11 +5,13 @@ Various dev tools collected from the internet or written by myself.
 [Artistic Style](http://astyle.sourceforge.net/) is a source code indenter, formatter, and beautifier for the C, C++, C++/CLI, Objective‑C, C# and Java programming languages. We can download and install Astyle rather quickly without any problems on most platforms.
 
 **Installation**
+
 We will use a simple script below to help us install AStyle on Mac OSX. Installation on other platforms can be done in a similar manner
 
 [setup_astyle.sh](../blob/master/astyle/setup_astyle.sh)
 
 **Usage**
+
 After we have `astyle` available on the command line, applying it for our project is a matter of wrapping everything in a single Make command like so
 
 ```
