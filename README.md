@@ -1,6 +1,26 @@
 # dev-tools
 Various dev tools collected from the internet or written by myself.
 
+## C# Code Format
+[Artistic Style](http://astyle.sourceforge.net/) is a source code indenter, formatter, and beautifier for the C, C++, C++/CLI, Objective‑C, C# and Java programming languages. We can download and install Astyle rather quickly without any problems on most platforms.
+
+**Installation**
+We will use a simple script below to help us install AStyle on Mac OSX. Installation on other platforms can be done in a similar manner
+
+[setup_astyle.sh](../blob/master/astyle/setup_astyle.sh)
+
+**Usage**
+After we have `astyle` available on the command line, applying it for our project is a matter of wrapping everything in a single Make command like so
+
+```
+# Supposed our Code is in the Code folder
+format:
+	find Code -iname "*.cs" -not -path "Code/excludedpath/*" | xargs -n 1 -I {} bash -c "astyle --options=.astylerc \"{}\""
+```
+
+Remember to create a file called `.astylerc` and put whatever format options you want to customize for your project there.
+
+
 ## Simulate slow network with speedlimit
 * [speedlimit](https://github.com/mschrag/speedlimit)
 
