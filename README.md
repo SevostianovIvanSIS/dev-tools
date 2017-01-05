@@ -22,6 +22,8 @@ format:
 
 Remember to create a file called `.astylerc` and put whatever format options you want to customize for your project there.
 
+## Log Parser
+* [general-log-parser](https://pypi.python.org/pypi/general-log-parser)
 
 ## Simulate slow network with speedlimit
 * [speedlimit](https://github.com/mschrag/speedlimit)
@@ -49,3 +51,11 @@ Remember to create a file called `.astylerc` and put whatever format options you
 ```
     multicrop [-c coords] [-b bcolor] [-f fuzzval] [-g grid] [-d discard] [-p prune] [-u unrotate] [-e extend] [-m mask] infile outfile
 ```
+
+### Optimize images for the web
+* [ImageOptim](https://github.com/ImageOptim/ImageOptim) is a GUI for lossless image optimization tools: PNGOUT, AdvPNG, Pngcrush, OptiPNG, JpegOptim, MozJPEG, jpegtran, and Gifsicle
+
+## url shortener
+* [Bit.ly](https://bitly.com/)
+* [goo.gl](https://goo.gl/)
+
