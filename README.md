@@ -32,11 +32,20 @@ Remember to create a file called `.astylerc` and put whatever format options you
 * `figlet`
 
 ## HTML5 sprite sheet generator
-* Stitches http://draeton.github.io/stitches/
+* [Stitches](http://draeton.github.io/stitches/)
 * [https://github.com/carrotsearch/smartsprites](https://github.com/carrotsearch/smartsprites)
 
-## Pandoc a universal document converter
-* http://pandoc.org/
+## Texture atlas packer
+* [Texturepacker](https://www.codeandweb.com/texturepacker)
+* [Shoebox](http://renderhjs.net/shoebox/)
+* [spritesheetpacker](http://spritesheetpacker.codeplex.com/)
+* [Leshy SpriteSheet Tool](http://www.leshylabs.com/apps/sstool/)
+* [texture-packer](https://github.com/minhhh/texture-packer)
+* ImagePacker
+
+## Document Converter
+* [Pandoc](http://pandoc.org/) Pandoc a universal document converter
+
 
 
 ## Image manipulation
@@ -52,10 +61,16 @@ Remember to create a file called `.astylerc` and put whatever format options you
     multicrop [-c coords] [-b bcolor] [-f fuzzval] [-g grid] [-d discard] [-p prune] [-u unrotate] [-e extend] [-m mask] infile outfile
 ```
 
-### Optimize images for the web
+## Image optimizer
 * [ImageOptim](https://github.com/ImageOptim/ImageOptim) is a GUI for lossless image optimization tools: PNGOUT, AdvPNG, Pngcrush, OptiPNG, JpegOptim, MozJPEG, jpegtran, and Gifsicle
+
+## Webp
+
 
 ## url shortener
 * [Bit.ly](https://bitly.com/)
 * [goo.gl](https://goo.gl/)
+
+## View symbols in object files
+* `nm` or `objdump`
 
